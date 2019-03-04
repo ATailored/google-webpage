@@ -1,0 +1,47 @@
+#logo {
+    position: absolute;
+    display: block;
+    top: 15px;
+    left: 15px;
+    padding: 8px;
+    height: 30px;
+    width: 80px;
+}
+#search {
+    position: absolute;
+    top: 25px;
+    display: block;
+    Padding-left: 8px;
+    left: 130px;
+    width: 500px;
+}
+.header {
+    margin-top: 8px;
+    position: absolute;
+    display: block;
+    padding: 8px;
+    top: 50px;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    padding-left: 27px;
+    color: gray;
+    text-decoration: none;
+}
+.footer {
+    padding-right: 8px;
+    color: gray;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f2f2f2;
+    line-height: 40px;
+}
