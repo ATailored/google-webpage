@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
     <head>
         <title>
@@ -7,22 +7,65 @@
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-       <img style="float: right" id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" width="272" height="92" alt="google logo">
-       <form action="/home/austin/the-odin-project/google-homepage" target="_self"></form>
-       <input syle="float: right" id="search" type="text" name="search" maxlength="2048" value="Search">
-       <ul class="header">
-           <li><a href="about.asp">About</a></li>
-           <li><a href="store.asp">Store</a></li>
-           <li style="float:right"><a href="gmail.asp">Gmail</a></li>
-           <li style="float:right"><a href="images.asp">Images</a></li>
-           <li style="float:right"><a href="signin.asp">Sign In</a></li>
-       </ul>
-       <ul class="footer">
-           <li><a href="advertising.asp">Advertising</a></li>
-           <li><a href="business.as;">Business</a></li>
-           <li style="float:right"><a href="privacy.asp">Privacy</a></li>
-           <li style="float:right"><a href="terms.asp">Terms</a></li>
-           <li style="float:right"><a href="settings.asp">Settings</li>
-       </ul>    
+        <header>
+                <div class="myform">
+                    <img style="float: right" id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" width="272" height="92" alt="google logo">
+                </div>
+                <div class="myform">
+                    <form class="myform" action="/home/austin/the-odin-project/google-homepage" target="_self"></form>
+                    <input style="float:right" id="search" type="text" name="search" maxlength="2048" value="Search">
+                    <div id="toolbar">
+                        <nav id="navbar">
+                            <ul class="header">
+                                <li class="current"><a href="all.asp">All</a></li>
+                                <li><a href="news.asp">News</a></li>
+                                <li><a href="videos.asp">Videos</a></li>
+                                <li><a href="shopping.asp">Shopping</a></li>
+                                <li><a href="maps.asp">Maps</a></li>
+                                <li><a href="more.asp">More</a></li>
+                                <li class="right" style="float:right"><a href="settings.asp">Settings</a></li>
+                                <li class="right" style="float:right"><a href="tools.asp">Tools</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            <nav id="navbar2">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img class="img-navbar2" src="images/apps.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-navbar2" src="images/notifications.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-navbar2" src="images/account.png">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <footer>
+            <nav id="footer">
+                <ul class="footer">
+                    <li>
+                        <a href="help.asp">Help</a>
+                    </li>
+                    <li>
+                        <a href="sendfeedback.asp">Send Feedback</a>
+                    </li>
+                    <li>
+                        <a href="privacy.asp">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="terms.asp">Terms</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
